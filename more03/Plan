@@ -1,0 +1,38 @@
+Design Document for more03
+-----------------------------------------------------------
+Code by: your name here
+Date:
+History: not really required these days
+-----------------------------------------------------------
+
+Purpose:
+
+The purpose of more03 is to extend the 'more02' version of more
+by adding new features:
+
+   [a] no need to press Enter to have program receive a keystroke
+   [b] program will work in any size terminal window
+   [c] program will work if window is resized when program is running
+
+Ouline:
+
+The program still has a main loop that reads the command line and processes
+files named there.  If no files are named on the command line, the program
+pages through data read from stdin.
+
+For each file, the program shows one screenful of lines, then asks the user
+what to do, reads a keystroke from the user.  Depending on the key pressed,
+the program quits, shows one more line of text, or shows one more screenful
+of text, then asks again.
+
+Layering:
+
+	main ,for each file, calls:
+		do_more	-- which pages through a file calling
+			print_one_line
+			how_much_more -- to ask user how much more to show
+
+File Structure:
+
+	more03.c	-- the main three functions listed above
+	termfuncs.c	-- a toolkit that provides access to terminal info and input
