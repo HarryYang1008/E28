@@ -1,0 +1,94 @@
+smith    ts/0 pts/0      6572    7 USER_PROCESS     1263136823 [Jan 10 10:20:23]ice1.fas.harvard.edu
+              pts/0      6572    8 DEAD_PROCESS     1263141332 [Jan 10 11:35:32]
+smith    1    tty1       5729    7 USER_PROCESS     1263146070 [Jan 10 12:54:30]
+smith    /0   pts/0      6816    7 USER_PROCESS     1263146105 [Jan 10 12:55:05]:0.0
+smith    /1   pts/1      6816    7 USER_PROCESS     1263146405 [Jan 10 13:00:05]:0.0
+smith    /2   pts/2      6816    7 USER_PROCESS     1263147284 [Jan 10 13:14:44]:0.0
+smith    /3   pts/3      6816    7 USER_PROCESS     1263158697 [Jan 10 16:24:57]:0.0
+         /2   pts/2         0    8 DEAD_PROCESS     1263159019 [Jan 10 16:30:19]
+         /1   pts/1         0    8 DEAD_PROCESS     1263159020 [Jan 10 16:30:20]
+         si              2091    8 DEAD_PROCESS     1263141340 [Jan 10 11:35:40]2.6.15-55-386
+reboot   ~~   ~             0    2 BOOT_TIME        1263159340 [Jan 10 16:35:40]2.6.15-55-386
+runlevel ~~   ~         20018    1 RUN_LVL          1263159340 [Jan 10 16:35:40]2.6.15-55-386
+         l2              4476    5 INIT_PROCESS     1263159340 [Jan 10 16:35:40]2.6.15-55-386
+         l2              4476    8 DEAD_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         1               5624    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         2               5625    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         3               5626    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         4               5627    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         5               5628    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         6               5629    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+         T3              5630    5 INIT_PROCESS     1263159355 [Jan 10 16:35:55]2.6.15-55-386
+LOGIN    1    tty1       5624    6 LOGIN_PROCESS    1263159355 [Jan 10 16:35:55]
+LOGIN    2    tty2       5625    6 LOGIN_PROCESS    1263159355 [Jan 10 16:35:55]
+LOGIN    4    tty4       5627    6 LOGIN_PROCESS    1263159355 [Jan 10 16:35:55]
+LOGIN    5    tty5       5628    6 LOGIN_PROCESS    1263159355 [Jan 10 16:35:55]
+LOGIN    6    tty6       5629    6 LOGIN_PROCESS    1263159355 [Jan 10 16:35:55]
+LOGIN    3    tty3       5626    6 LOGIN_PROCESS    1263159355 [Jan 10 16:35:55]
+smith    1    tty1       5624    7 USER_PROCESS     1263159430 [Jan 10 16:37:10]
+smith    /0   pts/0      9982    7 USER_PROCESS     1263162356 [Jan 10 17:25:56]:0.0
+         /0   pts/0         0    8 DEAD_PROCESS     1263165185 [Jan 10 18:13:05]
+smith    /0   pts/0     14455    7 USER_PROCESS     1263165259 [Jan 10 18:14:19]:0.0
+         /0   pts/0         0    8 DEAD_PROCESS     1263166499 [Jan 10 18:34:59]
+         1    tty1       5624    8 DEAD_PROCESS     1263166505 [Jan 10 18:35:05]2.6.15-55-386
+LOGIN    1    tty1      16265    6 LOGIN_PROCESS    1263166505 [Jan 10 18:35:05]
+         1              16265    5 INIT_PROCESS     1263166505 [Jan 10 18:35:05]2.6.15-55-386
+fax_inc  T3   ttyS0      5630    7 USER_PROCESS     1263224197 [Jan 11 10:36:37]800 111 2222
+         T3   ttyS0      5630    8 DEAD_PROCESS     1263224236 [Jan 11 10:37:16]2.6.15-55-386
+         T3             16812    5 INIT_PROCESS     1263224236 [Jan 11 10:37:16]2.6.15-55-386
+smith    ts/0 pts/0     16886    7 USER_PROCESS     1263227429 [Jan 11 11:30:29]ice1.fas.harvard.edu
+              pts/0     16886    8 DEAD_PROCESS     1263227878 [Jan 11 11:37:58]
+smith    ts/0 pts/0     16923    7 USER_PROCESS     1263228209 [Jan 11 11:43:29]ice1.fas.harvard.edu
+              pts/0     16923    8 DEAD_PROCESS     1263228561 [Jan 11 11:49:21]
+smith    1    tty1      16265    7 USER_PROCESS     1263233261 [Jan 11 13:07:41]
+smith    /0   pts/0     19702    7 USER_PROCESS     1263235066 [Jan 11 13:37:46]:0.0
+smith    /1   pts/1     19702    7 USER_PROCESS     1263235545 [Jan 11 13:45:45]:0.0
+smith    /2   pts/2     19702    7 USER_PROCESS     1263236449 [Jan 11 14:00:49]:0.0
+         /0   pts/0         0    8 DEAD_PROCESS     1263242182 [Jan 11 15:36:22]
+         /2   pts/2         0    8 DEAD_PROCESS     1263242184 [Jan 11 15:36:24]
+         /1   pts/1         0    8 DEAD_PROCESS     1263242188 [Jan 11 15:36:28]
+         1    tty1      16265    8 DEAD_PROCESS     1263242226 [Jan 11 15:37:06]2.6.15-55-386
+LOGIN    1    tty1      30004    6 LOGIN_PROCESS    1263242226 [Jan 11 15:37:06]
+         1              30004    5 INIT_PROCESS     1263242226 [Jan 11 15:37:06]2.6.15-55-386
+smith    ts/0 pts/0     30543    7 USER_PROCESS     1263303233 [Jan 12 08:33:53]ice1.fas.harvard.edu
+         T3             16812    8 DEAD_PROCESS     1263303247 [Jan 12 08:34:07]2.6.15-55-386
+         T3                 0    8 DEAD_PROCESS     1263303247 [Jan 12 08:34:07]2.6.15-55-386
+         T3             30570    5 INIT_PROCESS     1263304164 [Jan 12 08:49:24]2.6.15-55-386
+              pts/0     30543    8 DEAD_PROCESS     1263307764 [Jan 12 09:49:24]
+         T3             30570    8 DEAD_PROCESS     1263327036 [Jan 12 15:10:36]2.6.15-55-386
+         T3             30641    5 INIT_PROCESS     1263327036 [Jan 12 15:10:36]2.6.15-55-386
+smith    ts/0 pts/0     30795    7 USER_PROCESS     1263372675 [Jan 13 03:51:15]ice2.fas.harvard.edu
+         T3             30641    8 DEAD_PROCESS     1263372778 [Jan 13 03:52:58]2.6.15-55-386
+         T3                 0    8 DEAD_PROCESS     1263372778 [Jan 13 03:52:58]2.6.15-55-386
+         T3             30920    5 INIT_PROCESS     1263372861 [Jan 13 03:54:21]2.6.15-55-386
+              pts/0     30795    8 DEAD_PROCESS     1263372863 [Jan 13 03:54:23]
+smith    ts/0 pts/0     30938    7 USER_PROCESS     1263374447 [Jan 13 04:20:47]ice2.fas.harvard.edu
+              pts/0     30938    8 DEAD_PROCESS     1263389013 [Jan 13 08:23:33]
+smith    ts/0 pts/0      2097    7 USER_PROCESS     1263391573 [Jan 13 09:06:13]ice2.fas.harvard.edu
+              pts/0      2097    8 DEAD_PROCESS     1263395124 [Jan 13 10:05:24]
+smith    ts/0 pts/0      2278    7 USER_PROCESS     1263395998 [Jan 13 10:19:58]ice2.fas.harvard.edu
+              pts/0      2278    8 DEAD_PROCESS     1263400000 [Jan 13 11:26:40]
+smith    ts/0 pts/0      2665    7 USER_PROCESS     1263414593 [Jan 13 15:29:53]ice1.fas.harvard.edu
+              pts/0      2665    8 DEAD_PROCESS     1263415880 [Jan 13 15:51:20]
+smith    ts/0 pts/0      2784    7 USER_PROCESS     1263436208 [Jan 13 21:30:08]ice1.fas.harvard.edu
+         T3             30920    8 DEAD_PROCESS     1263436279 [Jan 13 21:31:19]2.6.15-55-386
+         T3                 0    8 DEAD_PROCESS     1263436279 [Jan 13 21:31:19]2.6.15-55-386
+         T3              2837    5 INIT_PROCESS     1263436596 [Jan 13 21:36:36]2.6.15-55-386
+smith    ts/1 pts/1      2853    7 USER_PROCESS     1263436836 [Jan 13 21:40:36]ice1.fas.harvard.edu
+              pts/1      2853    8 DEAD_PROCESS     1263438548 [Jan 13 22:09:08]
+              pts/0      2784    8 DEAD_PROCESS     1263438553 [Jan 13 22:09:13]
+         T3              2837    8 DEAD_PROCESS     1263490369 [Jan 14 12:32:49]2.6.15-55-386
+         T3              3413    5 INIT_PROCESS     1263490369 [Jan 14 12:32:49]2.6.15-55-386
+smith    ts/0 pts/0      3495    7 USER_PROCESS     1263518183 [Jan 14 20:16:23]ice1.fas.harvard.edu
+         T3              3413    8 DEAD_PROCESS     1263518188 [Jan 14 20:16:28]2.6.15-55-386
+         T3                 0    8 DEAD_PROCESS     1263518188 [Jan 14 20:16:28]2.6.15-55-386
+         T3              3532    5 INIT_PROCESS     1263518460 [Jan 14 20:21:00]2.6.15-55-386
+         T3              3532    8 DEAD_PROCESS     1263523082 [Jan 14 21:38:02]2.6.15-55-386
+         T3                 0    8 DEAD_PROCESS     1263523082 [Jan 14 21:38:02]2.6.15-55-386
+         T3              3936    5 INIT_PROCESS     1263524563 [Jan 14 22:02:43]2.6.15-55-386
+              pts/0      3495    8 DEAD_PROCESS     1263527924 [Jan 14 22:58:44]
+fax_inc  T3   ttyS0      3936    7 USER_PROCESS     1263563998 [Jan 15 08:59:58]800 111 2222
+         T3   ttyS0      3936    8 DEAD_PROCESS     1263564038 [Jan 15 09:00:38]2.6.15-55-386
+         T3              4851    5 INIT_PROCESS     1263564038 [Jan 15 09:00:38]2.6.15-55-386
+         T3              4851    8 DEAD_PROCESS     1263575857 [Jan 15 12:17:37]2.6.15-55-386
+         T3              4969    5 INIT_PROCESS     1263575857 [Jan 15 12:17:37]2.6.15-55-386

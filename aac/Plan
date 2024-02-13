@@ -1,0 +1,60 @@
+This file is a sample outline for a homework plan.  
+You must submit one of these.
+
+Project: dumputmp 
+
+Purpose: A program to display the contents of a utmp file in human-readable form
+
+Outline:
+	dumputmp reads the utmp file record by record and 
+        presents the contents in human-readable form.  The
+        form of output is one line per record with fixed-width fields,
+        all in text.
+        dumputmp uses read to get data from the file, and uses
+        printf to format and output results.
+
+Output:
+	The output looks like:
+           logname, tty, pid, type, text version of type, time, host
+
+Arguments:
+	dumputmp accepts one command line argument, a file to dump.
+        If no filename is given, dumputmp processes UTMP_FILE as defined
+        in utmp.h
+
+Input:
+        dumputmp does not accept any user input; the datafile is the
+        only source of input
+
+Data Structures:
+        dumputmp reads and writes one record at a time.  It only needs
+        to store a single record, so one variable of type struct utmp
+        is used.
+
+Memory Usage:
+	This program does not use any dynamic memory, so there is no
+	risk of memory leaks.  A single struct is used for each record.
+	read(2) is used to fill that struct, so memory over-flow is
+	limited by the size argument to read.
+
+Program Structure/Layering:
+	dumputmp has only four functions, with calling structure:
+
+	main: pass filename to dumpfile
+	    dumpfile: loop through records
+                    show_utrec:  show one record
+	                  typename: convert type code to string
+
+Source Files:
+	dumputmp.c: single source file for program
+
+Files:
+        dumputmp reads a file of utmp records.  See Arguments and Input
+        sections above.
+
+Error Handling:
+	If the utmp file cannot be opened, dumputmp prints an error
+	message and exits.  If a system call returns an error code, the
+	program reports the error and exits.
+
+	
